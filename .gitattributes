@@ -1,0 +1,28 @@
+# Unity YAML / text assets - normalize line endings, no LFS
+*.cs      text diff=csharp eol=lf
+*.shader  text eol=lf
+*.cginc   text eol=lf
+*.hlsl    text eol=lf
+*.compute text eol=lf
+*.asset   text eol=lf
+*.anim    text eol=lf
+*.controller text eol=lf
+*.mat     text eol=lf
+*.prefab  text eol=lf
+*.unity   text eol=lf
+*.meta    text eol=lf
+*.asmdef  text eol=lf
+
+# Binary assets - do not touch, no LFS
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.tif  binary
+*.tga  binary
+*.psd  binary
+*.exr  binary
+*.fbx  binary
+*.blend binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
