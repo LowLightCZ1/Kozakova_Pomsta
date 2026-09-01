@@ -37,3 +37,4 @@ Assets/Unity.VisualScripting.Generated/
 # OS junk
 .DS_Store
 Thumbs.db
+.git_broken_backup/
